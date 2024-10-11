@@ -1,5 +1,5 @@
 # Learn Trail Base
-# Based Sea Hackathon 2024
+### Based Sea Hackathon 2024
 ### ERC20 and Quiz contracts
 
 ERC 20 TRAIL Contract Verified
