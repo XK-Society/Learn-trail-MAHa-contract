@@ -1,11 +1,11 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const BASE_RPC_URL = process.env.BASE_RPC_URL;
-const BASESCAN_API_KEY = process.env.BASESCAN_API_KEY; // Make sure this is set in your .env file
+const BASESCAN_API_KEY = process.env.BASESCAN_API_KEY;
 
+/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.20",
   networks: {
